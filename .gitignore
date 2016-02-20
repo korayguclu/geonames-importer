@@ -1,0 +1,15 @@
+admin1CodesASCII.txt
+admin2Codes.txt
+allCountries.txt
+TR.txt
+alternateNames.txt
+countryInfo.txt
+featureCodes_en.txt
+hierarchy.txt
+iso-languagecodes.txt
+no-country
+*.TR.txt
+*.zip
+timeZones.txt
+/geonames_db_importer.sublime-project
+/geonames_db_importer.sublime-workspace
