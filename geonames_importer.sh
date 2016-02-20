@@ -54,6 +54,9 @@ download_geonames_data() {
     rm *_zip.zip
     unzip "*.zip"
     rm *.zip
+    sed -n 's/^TR//p' countryInfo.txt > countryInfo.TR.txt
+    sed -n 's/^TR//p' admin1CodesASCII.txt > admin1CodesASCII.TR.txt
+    sed -n 's/^TR//p' admin2Codes.txt > admin2Codes.TR.txt
 }
 
 if [ $# -lt 1 ]; then

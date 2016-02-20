@@ -14,12 +14,12 @@ CHARACTER SET 'UTF8'
 IGNORE 1 LINES
 (iso_639_3, iso_639_2, iso_639_1, language_name);
 
-LOAD DATA LOCAL INFILE 'admin1CodesASCII.txt'
+LOAD DATA LOCAL INFILE 'admin1CodesASCII.TR.txt'
 INTO TABLE admin1CodesAscii
 CHARACTER SET 'UTF8'
 (code, name, nameAscii, geonameid);
 
-LOAD DATA LOCAL INFILE 'admin2Codes.txt'
+LOAD DATA LOCAL INFILE 'admin2Codes.TR.txt'
 INTO TABLE admin2Codes
 CHARACTER SET 'UTF8'
 (code, name, nameAscii, geonameid);
